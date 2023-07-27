@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{ 
+  int n;
+  int num;
+  int sum; 
+  int temp;
+  printf("enter any number");
+  scanf("%d",&n);
+  temp=n;
+  while(n>0)
+  {
+    num=n%10;
+    sum+=num*num*num;
+    n=n/10;
+  } 
+  if(sum==temp)
+  {
+    printf("armstrong number");
+  }
+  else
+  {
+    printf("not armstrong number");
+  }
+  getch();
+}

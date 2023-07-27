@@ -1,0 +1,13 @@
+.container{
+    
+    background-color: rgb(192, 173, 173);
+    height: 600px;
+    width: 600px;
+}
+.icon{
+    font-size: 100px;
+}
+.icon:hover{
+    color: red;
+    transition: all 0.5s linear;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <section id="cardimgSection">
+            <h1 class="title"> Sachin's Cards Game</h1>
+            <div class="cards">
+                <div id="card-1" class=cardBox>
+                    <img src="./5.jpg" alt="card-1" onclick="randomNo()" ;>
+                </div>
+                <div id="card-2" class=cardBox>
+                    <img src="./6.jpg" alt="card-2" onclick="randomNo()" ;>
+                </div>
+                <div id="card-3" class=cardBox>
+                    <img src="./7.jpg" alt="card-3" onclick="randomNo()" ;>
+                </div>
+                <div id="card-4" class=cardBox>
+                    <img src="./8.jpg" alt="card-4" onclick="randomNo()" ;>
+                </div>
+            </div>
+        </section>
+        <section id="content">
+            <div class="title" id="cardMsg">
+                <h2> Choose One <span> CARD</span></h2>
+            </div>
+            <div class="container">
+
+
+                <div class=left-container>
+                    <button class="btn" onclick="randomNo()" ;> Play</button>
+                    <input type="number" id="input" placeholder="Enter 1 to 4" min="1" max="4">
+                    <button class="btn" onclick="reset()" ;> Next Chance</button>
+
+
+                </div>
+                <div class="right-container">
+                    <button class="btn"> Balance</button>
+                    <button class="btn"> Rules</button>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>
